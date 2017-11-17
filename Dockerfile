@@ -7,4 +7,4 @@ COPY . /usr/src/app
 
 RUN npm install
 
-CMD ["node", "server.js", "--port", "9000"]
+CMD ["node", "server.js"]
