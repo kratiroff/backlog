@@ -11,7 +11,11 @@ for key in r.scan_iter():
       parsed = json.dumps(json.loads(value), sort_keys=True, indent=4)
     else:
       parsed = json.dumps(value, sort_keys=True, indent=4)
-    print parsed
+    
+    filename = key.replace('/', '')
+    with open(filename + '.json', 'w') as f:
+     json.dump(json.loads(parsed), f, indent=4, sort_keys=True)
+
     break
   except ValueError:
     print "Oops!"
