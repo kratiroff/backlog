@@ -296,7 +296,7 @@ function drawNewCard(id, text, x, y, rot, colour, sticker, animationspeed) {
         cssclass: 'card-edit-form',
         placeholder: 'Double Click to Edit.',
         onblur: 'submit',
-        event: 'dblclick', //event: 'mouseover'
+        event: 'click', //event: 'mouseover'
     });
 
     //add applicable sticker
@@ -425,7 +425,7 @@ function drawNewColumn(columnName) {
         width: '',
         height: '',
         xindicator: '<img src="images/ajax-loader.gif">',
-        event: 'dblclick', //event: 'mouseover'
+        event: 'click', //event: 'mouseover'
     });
 
     $('.col:last').fadeIn(1500);
