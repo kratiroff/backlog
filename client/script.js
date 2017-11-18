@@ -167,7 +167,7 @@ function drawNewCard(id, text, x, y, rot, colour, sticker, animationspeed) {
         ' draggable" style="-webkit-transform:rotate(' + rot +
         'deg);\
 	">\
-	<img src="images/icons/token/Xion.png" class="card-icon delete-card-icon" />\
+	<img src="images/Xion.png" class="card-icon delete-card-icon" />\
 	<img class="card-image" src="images/' +
         colour + '-card.png">\
 	<div id="content:' + id +
@@ -294,7 +294,7 @@ function drawNewCard(id, text, x, y, rot, colour, sticker, animationspeed) {
         submit: 'OK',
         style: 'inherit',
         cssclass: 'card-edit-form',
-        placeholder: 'Double Click to Edit.',
+        placeholder: 'Double Click to Edit',
         onblur: 'submit',
         event: 'click', //event: 'mouseover'
     });
@@ -365,10 +365,12 @@ function createCard(id, text, x, y, rot, colour) {
 }
 
 function randomCardColour() {
-    var colours = ['yellow', 'green', 'blue', 'white'];
+    var colours = ['yellow', 'green', 'blue', 'white', 'orange', 'pink', 'red'];
 
-    var i = Math.floor(Math.random() * colours.length);
+    //var i = Math.floor(Math.random() * colours.length);
 
+  var i = Math.floor(Math.random() * 7);
+  
     return colours[i];
 }
 

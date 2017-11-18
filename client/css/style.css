@@ -1,6 +1,4 @@
 
-
-
 body {
 	font-family: 'Helvetica Neue Light', arial, serif;
 	font-size: 13px;
@@ -14,15 +12,13 @@ body {
 	xwidth: 2000px;
 
 
-
 	user-select: none;
 	-o-user-select:none;
 	-moz-user-select: none;
 	-khtml-user-select: none;
 	-webkit-user-select: none;
 
-	background-image: url('bg/concrete_wall_2_2.png');
-
+	background-image: url('background.png');
 }
 
 #board {
@@ -67,7 +63,7 @@ body {
 	position: absolute;
 	display: inline;
 	opacity: 0.035;
-	background-image: url('scribbles2.png');
+	background-image: url('background.png');
 }
 
 
@@ -156,7 +152,8 @@ h1, h1 a {
 }
 
 h2 {
-	font-family: 'Rock Salt', "Arial Rounded MT Bold", arial, serif;
+	font-family:  "Helvetica Neue Light", "HelveticaNeue-Light", 'Helvetica Neue', arial, serif;
+
 	color: #5c9db4;
 	font-size: 18px;
 	}
@@ -347,7 +344,7 @@ xopacity: .5;
 	background-image: url('../images/stickers/sticker-redstar.png');
 }
 #addsticker {
-	background-image: url('../images/icons/iconic/raster/black/plus_8x8.png');
+	background-image: url('plus_8x8.png');
 	background-position: 2px 2px;
 	opacity: 0.3;
 
@@ -451,7 +448,7 @@ xopacity: .5;
 /* Stuff for landing page */
 h1.home {
 	font-size: 100px;
-	font-family: 'Covered By Your Grace',"Arial Rounded MT Bold", arial, serif;
+	font-family:  "Helvetica Neue Light", "HelveticaNeue-Light", 'Helvetica Neue', arial, serif;
 	color: #19ba98;
 	opacity: .8;
 	padding: 0;
@@ -462,7 +459,7 @@ h1.home {
 
 .home {
 	font-size: 30px;
-	font-family: 'Covered By Your Grace',"Arial Rounded MT Bold", arial, serif;
+	font-family:  "Helvetica Neue Light", "HelveticaNeue-Light", 'Helvetica Neue', arial, serif;
 	color: #19ba98;
 	color: #222;
 	opacity: 1;
@@ -495,7 +492,7 @@ input.text {
     margin-bottom: 10px;
     border: none;
 	font-size: 30px;
-	font-family: 'Covered By Your Grace',"Arial Rounded MT Bold", arial, serif;
+	font-family:  "Helvetica Neue Light", "HelveticaNeue-Light", 'Helvetica Neue', arial, serif;
 	color: #5c9db4;
 	text-align: center;
 	border-bottom: dashed 3px #19ba98;
@@ -511,7 +508,7 @@ input:hover {
     margin-bottom: 10px;
     border: none;
 	font-size: 40px;
-	font-family: 'Covered By Your Grace',"Arial Rounded MT Bold", arial, serif;
+	font-family:  "Helvetica Neue Light", "HelveticaNeue-Light", 'Helvetica Neue', arial, serif;
 	color: #19ba98;
 	color: black;
 

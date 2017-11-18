@@ -468,22 +468,31 @@ function cleanAndInitializeDemoRoom()
 {
 	// DUMMY DATA
 	db.clearRoom('/demo', function() {
-		db.createColumn( '/demo', 'Not Started' );
-		db.createColumn( '/demo', 'Started' );
-		db.createColumn( '/demo', 'Testing' );
+		db.createColumn( '/demo', 'Inbox/Backlog' );
+		db.createColumn( '/demo', 'ToDo' );
+		db.createColumn( '/demo', 'Doing / WIP' );
 		db.createColumn( '/demo', 'Review' );
-		db.createColumn( '/demo', 'Complete' );
+		db.createColumn( '/demo', 'DONE' );
 
 
-		createCard('/demo', 'card1', 'Hello this is fun', roundRand(600), roundRand(300), Math.random() * 10 - 5, 'yellow');
-		createCard('/demo', 'card2', 'Hello this is a new story.', roundRand(600), roundRand(300), Math.random() * 10 - 5, 'white');
-		createCard('/demo', 'card3', '.', roundRand(600), roundRand(300), Math.random() * 10 - 5, 'blue');
-		createCard('/demo', 'card4', '.', roundRand(600), roundRand(300), Math.random() * 10 - 5, 'green');
+		createCard('/demo', 'card1', 'Tasks in inbox', 15, 45, Math.random() * 10 - 5, 'yellow');
+		createCard('/demo', 'card2', 'Small task 1h', 25, 135, 0, 'white');
+		createCard('/demo', 'card3', 'Large task 1day', 25, 500, 2, 'blue');
+		createCard('/demo', 'card4', 'To be done during the sprint', 230, 70, 1, 'green');
 
-		createCard('/demo', 'card5', 'Hello this is fun', roundRand(600), roundRand(300), Math.random() * 10 - 5, 'yellow');
-		createCard('/demo', 'card6', 'Hello this is a new card.', roundRand(600), roundRand(300), Math.random() * 10 - 5, 'yellow');
-		createCard('/demo', 'card7', '.', roundRand(600), roundRand(300), Math.random() * 10 - 5, 'blue');
-		createCard('/demo', 'card8', '.', roundRand(600), roundRand(300), Math.random() * 10 - 5, 'green');
+		createCard('/demo', 'card5', 'I choose t0 do it!', 490, 50, 0, 'yellow');
+		createCard('/demo', 'card6', 'finish but testing', 750, 50, 0, 'orange');
+		createCard('/demo', 'card7', 'DONE', 1000, 50, 3, 'blue');
+		createCard('/demo', 'card8', 'What is done?', 1000, 300, 2, 'white');
+	
+		createCard('/demo', 'card10', '+', roundRand(600), roundRand(500), 1, 'blue');
+		createCard('/demo', 'card11', '++', roundRand(800), roundRand(600), 0, 'pink');
+
+    createCard('/demo', 'card12', 'Hello this is fun', 100, 650, 0, 'green');
+    createCard('/demo', 'card13', 'Hello this is a new card', 275, 650, 0, 'white');
+    createCard('/demo', 'card14', 'Do what you want', 450, 650, 0, 'blue');
+	  createCard('/demo', 'card9', 'THE ONLY TRANSPARENT FOR THE NAME OF THE BACKLOG', 600, 700, 0, 'red');
+    
 	});
 }
 //

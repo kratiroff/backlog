@@ -16,6 +16,6 @@ for key in r.scan_iter():
     with open(filename + '.json', 'w') as f:
      json.dump(json.loads(parsed), f, indent=4, sort_keys=True)
 
-    break
+    break 
   except ValueError:
     print "Oops!"
