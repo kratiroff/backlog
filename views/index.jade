@@ -4,9 +4,7 @@ block body
 	- if (locals.demo)
 		div.notice-bar This is your demo board by hk. To make your private board, type your name on <a href="/">HOME</a>
 
-	//div.config
-	//	i.fa.fa-cog.fa-lg.faded-icon
-
+	
 	div.board-outline
 		div#board
 			div#board-doodles
@@ -28,34 +26,25 @@ block body
 		div.sticker#sticker-blue
 		div.sticker#sticker-yellow
 		div.sticker#sticker-green
-		
 		div.sticker#sticker-pink
 		div.sticker#sticker-lightblue
 		div.sticker#sticker-orange
 		div.sticker#sticker-purple
 		div.sticker#sticker-silverstar
-		div#addsticker
-		br
-		div.sticker#nosticker
+		//div#addsticker
 		//br
+		
 		div.sticker#sticker-gold
 		//	image(src="/images/stickers/sticker-gold.png")
 		div.sticker#sticker-bluestar
-		//	image(src="/images/stickers/sticker-bluestar.png")
-		div.sticker#sticker-silverstar
-		//	image(src="/images/stickers/sticker-silverstar.png")
+		div.sticker#sticker-silverstar		
 		div.sticker#sticker-redstar
-		//	image(src="/images/stickers/sticker-redstar.png")
+		div.sticker#nosticker
 
 
 	div.names
-		p connected:
+		p connected on:
 		image#user-icon(src="/images/user.png")
 		input#yourname-input
 		span.you-text (you)
 		ul#names-ul
-
-	//div.trash
-	//	i.fa.fa-trash-o.fa-lg.faded-icon
-
-	//<div style="width: 980px; height: 450px; border: solid 2px; opacity:.1; margin-top: 100px"> this will be the backlog that only appears on drag or perhaps not at all</div>

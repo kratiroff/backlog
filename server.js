@@ -35,7 +35,7 @@ router.use(express.static(__dirname + '/client'));
 var server = require('http').Server(app);
 server.listen(conf.port);
 
-console.log('Server running at http://127.0.0.1:' + conf.port + '/');
+//console.log('Server running at http://127.0.0.1:' + conf.port + '/');
 
 /**************
  SETUP Socket.IO
@@ -466,7 +466,7 @@ function setUserName ( client, name )
 
 function cleanAndInitializeDemoRoom()
 {
-	// DUMMY DATA
+	// Données de DEMO
 	db.clearRoom('/demo', function() {
 		db.createColumn( '/demo', 'Inbox/Backlog' );
 		db.createColumn( '/demo', 'ToDo' );
@@ -496,6 +496,7 @@ function cleanAndInitializeDemoRoom()
 	});
 }
 //
+
 
 /**************
  SETUP DATABASE ON FIRST RUN

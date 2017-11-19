@@ -5,30 +5,23 @@ body {
 	color: #333;
 	background-color: #ddd;
 	xbackground-image: -webkit-gradient(radial, 265 118, 456, 147 0, 29, from(#DDDDDD), to(#f3f3f3));
-
 	padding-left: 10px;
-
 	xheight: 1400px;
 	xwidth: 2000px;
-
-
 	user-select: none;
 	-o-user-select:none;
 	-moz-user-select: none;
 	-khtml-user-select: none;
 	-webkit-user-select: none;
-
 	background-image: url('background.png');
 }
 
 #board {
 	position: relative;
 	background-color: #dcd5d1;
-
 	height: 100%;
 	xwidth: 980px;
 	xborder: solid silver 8px;
-
 	background-image: -webkit-gradient(
 	    linear,
 	    left top,
@@ -38,7 +31,6 @@ body {
 	);
 
 	xbackground: -moz-linear-gradient(top,  rgb(214,210,206),  #000);
-
 	-moz-box-shadow:inset 1px 1px 3px #999;
 	box-shadow:inset 1px 1px 3px #999;
 }
@@ -48,13 +40,10 @@ body {
 	display: block;
 	width: 996px;
 	height: 466px;
-
 	xmargin-left: auto;
 	xmargin-right: auto;
-
 	box-shadow: 1px 3px 2px #aaa;
-
-	x-webkit-transform:rotate(0.3deg); /*"is that a little off-level? i feel like it is off-level"*/
+	x-webkit-transform:rotate(0.3deg); 
 }
 
 #board-doodles {
@@ -65,7 +54,6 @@ body {
 	opacity: 0.035;
 	background-image: url('background.png');
 }
-
 
 
 .hover .content {
@@ -102,10 +90,7 @@ width: 16px; height: 16px;
 	width: 100%;
 	color: #330066;
 	color: #666;
-
 }
-
-
 
 .board-table {
 	xz-index: 1;
@@ -153,7 +138,6 @@ h1, h1 a {
 
 h2 {
 	font-family:  "Helvetica Neue Light", "HelveticaNeue-Light", 'Helvetica Neue', arial, serif;
-
 	color: #5c9db4;
 	font-size: 18px;
 	}
@@ -218,7 +202,6 @@ h2 {
 	letter-spacing: 4px;
 	font-family:  "Helvetica Neue Light", "HelveticaNeue-Light", 'Helvetica Neue', arial, serif;
 	font-size: 13px;
-
 }
 
 .names p {
@@ -251,7 +234,6 @@ h2 {
 	font-size: 13px;
 	letter-spacing: 4px;
 	margin:0;
-
 	position: relative;
 }
 
@@ -262,9 +244,10 @@ h2 {
     width: 100px;
     background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
     background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
-xopacity: .5;
+  
+  xopacity: .5;
 	background: none;
-    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
 	border-radius: 10px;
 	color: #aaa;
 	text-align: right;
@@ -272,7 +255,6 @@ xopacity: .5;
 	font-size: 13px;
 	letter-spacing: 4px;
 	margin:0;
-
 }
 
 .names .focused {
@@ -282,7 +264,6 @@ xopacity: .5;
 .you-text {
 	letter-spacing: 2px;
 }
-
 
 #user-icon {
 	vertical-align: text-top;
@@ -295,17 +276,16 @@ xopacity: .5;
 	padding-left: 2px;
 	xz-index:10;
 	display: inline-block;
-	width: 11px;
-	height: 11px;
+	width: 22px;
+	height: 22px;
 	background-repeat: no-repeat;
 }
 
 .stickers {
-	width: 1000px;
+	width: 800px;
 	text-align: right;
-	padding-top: 2px; margin: 0;
+	padding-top: 4px; margin: 0;
 }
-
 
 #sticker-red {
 	background-image: url('../images/stickers/sticker-red.png');
@@ -443,8 +423,6 @@ xopacity: .5;
 }*/
 
 
-
-
 /* Stuff for landing page */
 h1.home {
 	font-size: 100px;
@@ -504,18 +482,14 @@ input:hover {
 }
 
 #go {
-	 background: none;
-    margin-bottom: 10px;
-    border: none;
+	background: none;
+  margin-bottom: 10px;
+  border: none;
 	font-size: 40px;
 	font-family:  "Helvetica Neue Light", "HelveticaNeue-Light", 'Helvetica Neue', arial, serif;
 	color: #19ba98;
 	color: black;
-
 	xborder: solid 1px;
-
-
-
 }
 
 .notice-bar {
@@ -569,10 +543,6 @@ img {
 }
 
 
-
-
-
-
 .filler {
 	xwidth: 100%;
 	xbackground-color: rgba(255,0,0,0.1);
@@ -586,8 +556,6 @@ img {
 .active-connections {
 	color: #999
 }
-
-
 
 
 /* states and images */
